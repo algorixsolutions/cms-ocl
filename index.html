@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>CMS-OCL — Bientôt en ligne</title>
+  <meta name="description" content="Coordination des Musulmans du Sénégal pour l'Observation du Croissant Lunaire. Notre site sera bientôt en ligne." />
+  <meta name="theme-color" content="#F6F8F4" />
+  <link rel="icon" type="image/png" href="/cms-ocl-logo.png" />
+  <link rel="apple-touch-icon" href="/cms-ocl-logo.png" />
+  <meta property="og:title" content="CMS-OCL — Bientôt en ligne" />
+  <meta property="og:description" content="Coordination des Musulmans du Sénégal pour l'Observation du Croissant Lunaire." />
+  <meta property="og:image" content="https://cms-ocl.com/cms-ocl-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --fond: #F6F8F4;
+      --texte: #0E1712;
+      --texte-secondaire: #4A5A50;
+      --vert: #134323;
+      --bordure: #DCE4DC;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fond: #080E0B;
+        --texte: #F4F7F3;
+        --texte-secondaire: #A9B8AE;
+        --vert: #5CC48A;
+        --bordure: #22332A;
+      }
+    }
+    * { box-sizing: border-box; }
+    html, body { height: 100%; margin: 0; }
+    body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 48px 24px;
+      background: var(--fond);
+      color: var(--texte);
+      font-family: 'Readex Pro', system-ui, -apple-system, 'Segoe UI', sans-serif;
+      text-align: center;
+      -webkit-font-smoothing: antialiased;
+    }
+    main { max-width: 560px; }
+    .logo {
+      width: 168px;
+      height: 168px;
+      border-radius: 50%;
+      background: #fff;
+      display: block;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 32px 0 0;
+      font-size: clamp(20px, 4vw, 26px);
+      font-weight: 600;
+      line-height: 1.35;
+      letter-spacing: -0.01em;
+    }
+    .ar {
+      margin: 10px 0 0;
+      font-size: clamp(18px, 3.6vw, 22px);
+      color: var(--texte-secondaire);
+    }
+    .separateur {
+      width: 48px;
+      height: 2px;
+      margin: 36px auto;
+      border-radius: 2px;
+      background: var(--vert);
+      opacity: 0.6;
+    }
+    .statut {
+      margin: 0;
+      font-size: 18px;
+      font-weight: 500;
+      color: var(--vert);
+    }
+    .statut-ar {
+      margin: 6px 0 0;
+      font-size: 18px;
+      color: var(--vert);
+    }
+    footer {
+      margin-top: 56px;
+      font-size: 13px;
+      color: var(--texte-secondaire);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <img class="logo" src="/cms-ocl-logo.png" alt="Emblème de la CMS-OCL" width="168" height="168" />
+
+    <h1>Coordination des Musulmans du Sénégal<br />pour l'Observation du Croissant Lunaire</h1>
+    <p class="ar" lang="ar" dir="rtl">تنسيقية مسلمي السنغال لرصد الهلال</p>
+
+    <div class="separateur" aria-hidden="true"></div>
+
+    <p class="statut">Notre site sera bientôt en ligne.</p>
+    <p class="statut-ar" lang="ar" dir="rtl">موقعنا الإلكتروني قريباً على الإنترنت.</p>
+  </main>
+
+  <footer>© 2026 CMS-OCL</footer>
+</body>
+</html>
